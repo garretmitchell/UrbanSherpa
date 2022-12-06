@@ -1,18 +1,41 @@
+body {
+    background-color: blue;
+
+}
+
 .logo {
-    color: blue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    margin: 0%;
-}
-
-.nav {
-    list-style: none;
-    margin: 0;
+    background-color: blue;
     padding: 0;
+    color: white;
+    letter-spacing: 2px;
+}
 
+.topnav {
+    background-color: rgba(91, 91, 91, 0.264);
+    overflow: hidden;
+    border-style: none;
 
 }
 
-.navlist {
-    display: inline;
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: lightskyblue;
+    color: white;
 }
