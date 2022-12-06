@@ -1,13 +1,16 @@
 body {
     background-color: blue;
+    background-image: url("https://wallpapercave.com/wp/O0Myqhm.jpg");
+    background-position: initial;
 
 }
 
 .logo {
-    background-color: blue;
     padding: 0;
     color: white;
     letter-spacing: 2px;
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
 }
 
 .topnav {
